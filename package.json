@@ -1,0 +1,32 @@
+{
+  "name": "club-management",
+  "version": "0.1.0",
+  "description": "open source app to manage a club resources/membership",
+  "main": "club-manager.js",
+  "scripts": {
+    "test": "mocha test --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nherment/node-club-manager.git"
+  },
+  "author": "Nicolas Herment <nherment@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nherment/node-club-manager/issues"
+  },
+  "homepage": "https://github.com/nherment/node-club-manager",
+  "dependencies": {
+    "body-parser": "^1.9.0",
+    "dustjs-linkedin": "^2.4.2",
+    "express": "^4.9.7",
+    "lodash": "^2.4.1",
+    "method-override": "^2.2.0",
+    "microservice": "^0.1.0",
+    "node-dev": "^2.6.0",
+    "passport": "^0.2.1",
+    "passport-google": "^0.3.0",
+    "serve-static": "^1.6.4",
+    "uuid": "^2.0.1"
+  }
+}
